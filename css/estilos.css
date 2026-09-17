@@ -1,0 +1,20 @@
+/* 1. Margen de 20px a todos los lados y fuente Verdana en el body */
+body {
+  margin: 20px;
+  font-family: Verdana, sans-serif;
+}
+
+/* 2. Selector de etiqueta para textarea con un ancho de 200px */
+textarea {
+  width: 200px;
+}
+
+/* 3. Selector de atributo para el input con name="email" y fondo #eeeeee */
+input[name="email"] {
+  background-color: #eeeeee;
+}
+
+/* 4. Selector múltiple para párrafos y etiquetas con fuente Tahoma */
+p, label {
+  font-family: Tahoma, sans-serif;
+}
